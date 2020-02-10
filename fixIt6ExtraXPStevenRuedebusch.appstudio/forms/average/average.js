@@ -30,8 +30,15 @@ if (userNumOne > 0 && userNumTwo > 0 && userNumThree > 0) {
    alert("You need to add a number before we can proceed")
 }
 
+lastNumber = myNumbers[12]
+let x = [lastNumber, 10]
+let plusTen = x.reduce(function(a,b){
+    return a + b;
+    }, 0);
+
 alert(`After adding your numbers, here is the new array: ${myNumbers}`)
- 
+alert(`The last number in the array plus 10 is ${plusTen}`)
+
 //Hello! The code appears to be complete
 
 
