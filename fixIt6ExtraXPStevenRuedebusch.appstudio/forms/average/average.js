@@ -31,6 +31,8 @@ if (userNumOne > 0 && userNumTwo > 0 && userNumThree > 0) {
 }
 
 alert(`After adding your numbers, here is the new array: ${myNumbers}`)
+ 
+//Hello! The code appears to be complete
 
 
 
